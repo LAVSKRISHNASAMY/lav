@@ -3,14 +3,14 @@
 int main()
 {
 int a,b,temp;
-printf("enter the value for a:");
+printf("\n enter the value for a:");
 scanf("%d",&a);
-printf("enter the value for b:");
+printf("\n enter the value for b:");
 scanf("%d",&b);
+printf("\n the values before swap:",a,b);
 temp=a;
 a=b;
 b=temp;
-printf("the values before swap:%d",a);
-printf("the values after swap:%d",b);
+printf("\n the values after swap:"a,b);
 return 0;
 }
