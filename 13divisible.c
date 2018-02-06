@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int n,a;
+int n;
 scanf("%",&n);
 while(n!=0)
 {
 if(n%13==0)
 {
-printf("yes divisible");
+printf("yes");
 }
 else
 {
-printf("not divisible");
+printf("no");
 }
 }
 return 0;
