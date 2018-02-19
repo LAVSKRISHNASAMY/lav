@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int a,n,i,flag=0;
+int n,i,flag=0;
 printf("enter the number");
 scanf("%d",&n);
 for(i=2;i<=n/2;++i)
