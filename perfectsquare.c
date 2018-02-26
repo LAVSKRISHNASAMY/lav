@@ -7,7 +7,7 @@ scanf("%d %d",&n1,&n2);
 if(n1==n2)
 {
 s=pow(n1,n2);
-printf("perfect square %d",s);
+printf("perfect square");
 }
 else
 {
