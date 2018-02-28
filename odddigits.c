@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int n,r,i=0,digit;
+int n,r,digit;
 printf("enter the integer:");
 scanf("%d",&n);
 printf("%d \n ",n);
