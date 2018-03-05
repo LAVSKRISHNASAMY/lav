@@ -1,15 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int min,n,i,a[50];
-scanf("%d",&n);
-printf("enter the numbers\n");
-for(i=0;i<n;i++)
+int min,i,a[50];
+for(i=0;i<10;i++)
 {
 scanf("%d",&a[i]);
 }
 min=a[0];
-for(i=0;i<n;i++)
+for(i=0;i<10;i++)
 {
 if(a[i]<min)
 {
